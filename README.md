@@ -120,5 +120,5 @@ while tracker !=1:
   print()
   print()
   
-print("End of quiz!")
+print("End of quiz!Thank You!")
   
