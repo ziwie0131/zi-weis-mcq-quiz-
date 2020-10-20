@@ -19,17 +19,17 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. This is not subtraction."
+    output = "Wrong. This is not subtraction. Please try again"
     score -=1
   elif answer == "b":
-    output = "Wrong. This is not multiplication."
+    output = "Wrong. This is not multiplication. You can do better!"
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. This is not division."
+    output = "Wrong. This is not division. Don't give up!"
     score -=1
   else:
     output = "Please choose a, b, c or d only."
