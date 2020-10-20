@@ -1,4 +1,4 @@
-# zi-weis-mcq-quiz-
+# zi-wei's-mcq-quiz-
 print("Title of program: MCQ revision program")
 print()
 
@@ -26,7 +26,7 @@ while tracker !=1:
     output = "Wrong. This is not multiplication."
     score -=1
   elif answer == "c":
-    output = "Yes, that's right!"
+    output = "Correct, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
@@ -57,18 +57,18 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Yes, that's right!"
+    output = "Correct, that's right!"
     tracker =1
     score +=1
   elif answer == "b":
     output = "Wrong. If so, then it will be written as H and H - two hydrogen atoms."
     score -=1
   elif answer == "c":
-    output = "Wrong. Clearly the number 2 in the formulae must mean something?"
+    output = "Wrong.The number 2 in the formulae must mean something?"
     score -=1
     
   elif answer == "d":
-    output = "Wrong. What's the difference between a molecule and an atom?"
+    output = "Wrong. Think about the difference between a molecule and an atom."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
@@ -105,7 +105,7 @@ while tracker !=1:
     score -=1
     
   elif answer == "d":
-    output = "Yes, that's right!"
+    output = "Correct, that's right!"
     tracker =1
     score +=1
   else:
